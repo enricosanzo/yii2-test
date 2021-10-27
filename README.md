@@ -21,7 +21,7 @@ DIRECTORY STRUCTURE
       vendor/             contains dependent 3rd-party packages
       views/              contains view files for the Web application
       web/                contains the entry script and Web resources
-      import/		   contains the database import test files for the project
+      import/		      contains the database import test files for the project
 
 
 USAGE
@@ -45,7 +45,7 @@ composer install
 
 ### Import customers and practices into the database
 
-After reaching the login page of the application, login with the admin account and go to the Import page fromn the top menu.
+After reaching the login page of the application, login with the admin account and go to the Import page from the top menu (only the admin account can use the import function, while the demo account can't).
 Upload the `customers.csv` file from the `import` folder and after this import the `practices.csv` file too.
 
 ### Searching and exporting
