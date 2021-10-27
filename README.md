@@ -46,7 +46,7 @@ composer install
 ### Import customers and practices into the database
 
 After reaching the login page of the application, login with the admin account and go to the Import page fromn the top menu.
-Upload the customers.csv file from the `import` folder and after this import the practices.csv file too.
+Upload the `customers.csv` file from the `import` folder and after this import the `practices.csv` file too.
 
 ### Searching and exporting
 
