@@ -15,7 +15,7 @@ USAGE
 If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
 at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 
-After cloning the project execute the following commands:
+After cloning the project, config the database connection by editing the `db.php` file in the `config` folder, then execute the following commands:
 
 ~~~
 composer install
