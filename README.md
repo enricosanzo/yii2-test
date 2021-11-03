@@ -7,23 +7,6 @@
 </p>
 
 
-DIRECTORY STRUCTURE
--------------------
-
-      assets/             contains assets definition
-      commands/           contains console commands (controllers)
-      config/             contains application configurations
-      controllers/        contains Web controller classes
-      mail/               contains view files for e-mails
-      models/             contains model classes
-      runtime/            contains files generated during runtime
-      tests/              contains various tests for the basic application
-      vendor/             contains dependent 3rd-party packages
-      views/              contains view files for the Web application
-      web/                contains the entry script and Web resources
-      import/		   contains the database import test files for the project
-
-
 USAGE
 ------------
 
@@ -32,7 +15,7 @@ USAGE
 If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
 at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 
-After cloning the project execute the following commands:
+After cloning the project, config the database connection by editing the `db.php` file in the `config` folder, then execute the following commands:
 
 ~~~
 composer install
@@ -45,7 +28,7 @@ composer install
 
 ### Import customers and practices into the database
 
-After reaching the login page of the application, login with the admin account and go to the Import page fromn the top menu.
+After reaching the login page of the application, login with the admin account and go to the Import page from the top menu (only the admin account can use the import function, while the demo account can't).
 Upload the `customers.csv` file from the `import` folder and after this import the `practices.csv` file too.
 
 ### Searching and exporting
