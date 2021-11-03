@@ -22,6 +22,10 @@ composer install
 ~~~
 
 ~~~
+./yii migrate
+~~~
+
+~~~
 ./yii serve
 ~~~
 
